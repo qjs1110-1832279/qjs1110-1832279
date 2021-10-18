@@ -3,12 +3,6 @@
 <head>
 <link rel="stylesheet" href="anExternal.css">
 <style>
-    img {
-        float: right;
-        width: 300px;
-        height: 260px;
-        margin-right: 20px;
-    }
     #rcorners3 {
         border-radius: 15px 50px;
         background: #73AD21;
@@ -22,11 +16,35 @@
 
 <h1>This is an external style sheet</h1>
 
-<h1>A cute floating image of Dub on the right</h1>
-<img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2019/04/25094535/Dubs-7-1067x800.jpg" alt="Dub"> 
+<h2>Paragraphs with different fonts</h2>
+<span style="font-size: 20px; margin: 21px 0; display: block;">This sentence has a font size of 20px.</span>
+<span style="font-size: 10px; margin: 21px 0; display: block;">This sentence has a font size of 10px.</span>
 
-<h1>An element with rounded border corners</h1>
-<h2>border-radius: 15px 50px</h2>
+<h2>Resize pictures to 50xp by 50xp</h2>
+<img src="uw.jpg" title="Cherry" style="width:50px; height:50px;">  
+<img src="snow.jpg" title="Snow" style="width:50px; height:50px;">  
+
+<h2>One more unique CSS command: A purple textbox!</h2>
+<p class="important">Your important paragraph here.</p>
+
+<h2>Text that is centered on a photo</h2>
+<div class="container">
+    <img src="uw.jpg" alt="Cherry" style="width:50%;">
+    <div class="centered">Cherry Blossom</div>
+  </div>
+
+<h2>A photo with 20 pixel margins on each side</h2>
+<img src="snow.jpg" alt="snow" style="width:30%;">
+<div class="margins"></div>
+
+<h2>Text with a border that uses dotted lines</h2>
+<p class="dotted">A text box with dotted lines.</p>
+
+<h2>A cute floating image of Dub on the right -- ></h2>
+<img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2019/04/25094535/Dubs-7-1067x800.jpg"  alt="Dub" style="float:right; width:300px; height:260px"> 
+
+<h2>An element with rounded border corners</h2>
+<h3>border-radius: 15px 50px</h3>
 <p id="rcorners3"></p>
 
 </body>
